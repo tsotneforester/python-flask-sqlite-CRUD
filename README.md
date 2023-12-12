@@ -1,4 +1,9 @@
-<h1 align="center">Python + Flask + Sqlite</h1> 
+<div style="text-align:center; font-size:20px;">
+
+Python + Flask + Sqlite
+
+</div>
+
 <h1 align="center">Setup Guide</h1> 
 
 ![](../Desktop/logos.png)
