@@ -1,7 +1,8 @@
 <h1 align="center">Python + Flask + Sqlite</h1> 
-<h1 align="center">Setup Guide</h1> 
+<h2 align="center">Setup Guide</h2> 
 
-![](../Desktop/logos.png)
+
+![logos](https://github.com/tsotneforester/python-flask-sqlite3-CRUD/assets/79293287/3d874e5a-52d0-4ed9-b5a8-6880e29f625a)
 
 
 
