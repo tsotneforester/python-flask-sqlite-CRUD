@@ -4,9 +4,12 @@ Python + Flask + Sqlite
 
 </div>
 
-<h1 align="center">Setup Guide</h1> 
 
-![](../Desktop/logos.png)
+
+<h2 align="center">Setup Guide</h2> 
+
+
+![logos](https://github.com/tsotneforester/python-flask-sqlite3-CRUD/assets/79293287/3d874e5a-52d0-4ed9-b5a8-6880e29f625a)
 
 
 
