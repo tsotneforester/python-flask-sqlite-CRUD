@@ -1,4 +1,4 @@
-<div align="center" style="font-size:20px;">
+<div align="center" style="font-size:44px;">
 Python + Flask + Sqlite
 </div>
 
