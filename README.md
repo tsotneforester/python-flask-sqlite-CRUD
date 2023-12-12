@@ -1,8 +1,9 @@
 <h1 align="center">Python + Flask + Sqlite</h1> 
 <h1 align="center">Setup Guide</h1> 
 
+![](../Desktop/logos.png)
 
-![](../Desktop/uuu.png)
+
 
 ## About
 
@@ -11,14 +12,13 @@ my initial desire was to create simple setup guide, but As you might have alread
 
 
 ## setup environment
-- **_python_** - install it directly form microsoft store. after instalation, you can check the status with
+- **_Python_** - install it directly form microsoft store. after instalation, you can check the status with
 
 ```sh
 python --version
->Python 3.11.7
 ``` 
 
-- **_flask_** - PIP is a package manager for Python packages, or modules if you like. flask is one of them. to instal it, run command
+- **_Flask_** - PIP is a package manager for Python packages, or modules if you like. flask is one of them. to instal it, run command
 
 ```sh
 pip install Flask
@@ -30,6 +30,7 @@ check the status with
 pip show flask
 ``` 
 
+- **_Sqlite_** - another simple step, but not classical one though, not installing `.exe` file, nor with `pip`. here is [link](https://www.youtube.com/results?search_query=sqlite+installation+windows+10)
 <!-- |||||||||||||| Heading |||||||||||||    -->
 <!-- # About The Project -->
 <!--<h1 align="center"> About The Project </h1> -->
@@ -81,9 +82,7 @@ const hello= "hello";
 <!-- <a name="readme-top"></a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tsotneforester&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Top Langs](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tsotneforester&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
 
 <!----------------------- Links -------------------------------->
 <!-- https://readme-typing-svg.demolab.com/demo/ -->
