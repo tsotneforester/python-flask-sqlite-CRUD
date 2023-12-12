@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<form action="/update" method="post">
+  <input autocomplete="off" autofocus name="name" placeholder="Name" type="text" value="{{ registrant[0][1] }}" required />
+  <input name="id" type="hidden" value="{{ registrant[0][0] }}" />
+  <select name="sport">
+    {% for sport in sports %}
+    <option value="{{ sport }}">{{ sport }}</option>
+    {% endfor %}
+  </select>
+  <button type="submit">Submit</button>
+</form>
+
+{% endblock %}
