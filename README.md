@@ -7,7 +7,7 @@
 
 ## About
 
-[CS50](https://pll.harvard.edu/course/cs50-introduction-computer-science]) flourished new trinity of web development for me: Python + Flask + Sqlite. Despite cloud coding with cs50 libraries was piece of cake, setting up local working environment could have been more comfortable for final project.
+[CS50](https://pll.harvard.edu/course/cs50-introduction-computer-science]) flourished new trinity of web development for me: Python + Flask + Sqlite. Despite cloud coding with CS50 libraries was piece of cake, setting up local working environment could have been more comfortable for final project.
 My initial desire was to create simple setup guide, but as you might have already guessed, it turned out to be setup + simple app, just to showcase general POST and GET request handling with SQL query executing.
 
 
