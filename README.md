@@ -1,6 +1,7 @@
 <h1 align="center">Python + Flask + Sqlite</h1> 
 
-![logos](https://github.com/tsotneforester/python-flask-sqlite3-CRUD/assets/79293287/2273a69f-9c1c-42e1-b53b-4e54dbb7d877)
+![logos](https://github.com/tsotneforester/python-flask-sqlite3-CRUD/assets/79293287/506d2c72-65dc-4e66-a266-a075b88f0214)
+
 
 <h3 align="center">Setup Guide</h3> 
 
