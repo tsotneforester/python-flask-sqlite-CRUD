@@ -1,16 +1,10 @@
-<div align="center" style="font-size:44px;">
-Python + Flask + Sqlite
-</div>
+<h1 align="center">Python + Flask + Sqlite</h1> 
 
-<font size="5"> helloo </font>
-
-
-<h2 align="center">Setup Guide</h2> 
 
 
 ![logos](https://github.com/tsotneforester/python-flask-sqlite3-CRUD/assets/79293287/3d874e5a-52d0-4ed9-b5a8-6880e29f625a)
 
-
+<h3 align="center">Setup Guide</h3> 
 
 ## About
 
