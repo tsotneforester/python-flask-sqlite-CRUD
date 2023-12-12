@@ -7,12 +7,12 @@
 
 ## About
 
-CS50 flourished new trinity of web development for me: Python + Flask + Sqlite. Despite cloud coding with cs50 libraries was piece of cake, setting up local working evnironment could have been more comfortable for final project.  
-my initial desire was to create simple setup guide, but As you might have already guessed, it turned out to be setup + simple app, just to showcase genaral POST and GET requst handling with sqlite query executing
+[CS50](https://pll.harvard.edu/course/cs50-introduction-computer-science]) flourished new trinity of web development for me: Python + Flask + Sqlite. Despite cloud coding with cs50 libraries was piece of cake, setting up local working environment could have been more comfortable for final project.
+My initial desire was to create simple setup guide, but as you might have already guessed, it turned out to be setup + simple app, just to showcase general POST and GET request handling with SQL query executing.
 
 
 ## Environment setup + usage
-- **_Python_** - install it directly form microsoft store. after instalation, you can check the status with
+- **_Python_** - install it directly form Microsoft [store](https://apps.microsoft.com/detail/9PJPW5LDXLZ5?hl=en-US&gl=US). Check instalation status
 
 ```sh
 python --version
