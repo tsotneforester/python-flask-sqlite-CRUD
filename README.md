@@ -11,7 +11,7 @@ CS50 flourished new trinity of web development for me: Python + Flask + Sqlite. 
 my initial desire was to create simple setup guide, but As you might have already guessed, it turned out to be setup + simple app, just to showcase genaral POST and GET requst handling with sqlite query executing
 
 
-## setup environment
+## environment setup + usage
 - **_Python_** - install it directly form microsoft store. after instalation, you can check the status with
 
 ```sh
@@ -31,6 +31,24 @@ pip show flask
 ``` 
 
 - **_Sqlite_** - another simple step, but not classical one though, not installing `.exe` file, nor with `pip`. here is [link](https://www.youtube.com/results?search_query=sqlite+installation+windows+10)
+
+as everything is installed correctly, you can run app with simple command
+
+```sh
+python app.py
+``` 
+
+you will find `log.sql` file in project, which 
+
+## environment desription
+we all know how beckend works, with GET and POST requests (and not only) front communicates to server, which responds with some actual data. `flask` lives within `Python`, it is casebook of routs request methods and data gathering/sending instructions, which is stored in sqlite database (database.db). flask works like real server: it gets request from html `form`, executes proper sql query, gets data from database and sends it to html via `jinja2`
+
+you will find `log.sql` file in project. it helps to execute sql queries and test them while implementing it in flask. you can simultaneously launch second terminal and execute queries written in `log.sql` file
+
+```sh
+cat log.sql | sqlite3 database.db
+``` 
+
 <!-- |||||||||||||| Heading |||||||||||||    -->
 <!-- # About The Project -->
 <!--<h1 align="center"> About The Project </h1> -->
