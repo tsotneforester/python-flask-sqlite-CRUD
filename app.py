@@ -30,32 +30,34 @@ def db(query):
 LIST = {}
 SPORTS = ["football", "snooker", "boxing", "cycling"]
 
+@app.route("/")
+def registrants():
+     registrants = db("SELECT * FROM registrants")
+     return render_template("index.html", registrants = registrants)
 
-@app.route("/", methods = ["GET","POST"])
+
+@app.route("/add", methods = ["GET","POST"])
 def index():
     if request.method == "GET":
-        return render_template("index.html", sports = SPORTS)
+        return render_template("add.html", sports = SPORTS)
     elif request.method == "POST":
         name = request.form.get("name")
         sport = request.form.get("sport")
         if sport in SPORTS:
             LIST[name] = sport
             db("INSERT INTO registrants (name, sport) VALUES ('{}', '{}')".format(name, sport))
-            return redirect("/list")
+            return redirect("/")
         else:
             return render_template("failure.html")
 
 
-@app.route("/list")
-def registrants():
-     registrants = db("SELECT * FROM registrants")
-     return render_template("list.html", registrants = registrants)
+
 
 @app.route("/delete", methods = ["POST"])
 def delete():
     id = request.form.get("id")
     db("DELETE FROM registrants WHERE id = {}".format(id))
-    return redirect("/list")
+    return redirect("/")
 
 @app.route("/edit", methods = ["POST"])
 def edit():
@@ -70,7 +72,7 @@ def update():
      name = request.form.get("name")
      sport = request.form.get("sport")
      db("UPDATE registrants SET name='{}', sport='{}' WHERE id = {}".format(name, sport, id))
-     return redirect("/list")
+     return redirect("/")
 
 
 if __name__ == '__main__':

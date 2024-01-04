@@ -1,8 +1,7 @@
 {% extends "layout.html" %} {% block body %}
 
-<form class="add-edit-form" action="/update" method="post">
-  <input class="form-control" autocomplete="off" autofocus name="name" placeholder="Name" type="text" value="{{ registrant[0][1] }}" required />
-  <input name="id" type="hidden" value="{{ registrant[0][0] }}" />
+<form class="add-edit-form" action="/add" method="post">
+  <input class="form-control" autocomplete="off" autofocus name="name" placeholder="Name" type="text" required />
   <select class="form-select" name="sport">
     {% for sport in sports %}
     <option value="{{ sport }}">{{ sport.capitalize() }}</option>

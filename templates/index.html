@@ -1,15 +1,35 @@
-{% extends "layout.html" %}
+{% extends "layout.html" %} {% block body %}
+<a href="/add"><button class="btn btn-success">ADD</button></a>
+<div class="table-responsive-md">
+  <table class="table table-success table-striped table-sm">
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Sport</th>
+      <th></th>
+      <th></th>
+    </tr>
 
-{% block body %}
+    {% for registrant in registrants %}
+    <tr>
+      <td>{{ registrant[0] }}</td>
+      <td>{{ registrant[1] }}</td>
+      <td>{{ registrant[2].capitalize() }}</td>
+      <td>
+        <form action="/delete" method="post">
+          <input name="id" type="hidden" value="{{ registrant[0] }}" />
+          <button class="btn btn-danger btn-sm">x</button>
+        </form>
+      </td>
+      <td>
+        <form action="/edit" method="post">
+          <input name="id" type="hidden" value="{{ registrant[0] }}" />
+          <button class="btn btn-warning btn-sm">...</button>
+        </form>
+      </td>
+    </tr>
 
-<form action="/" method="post">
-  <input autocomplete="off" autofocus name="name" placeholder="Name" type="text" required />
-  <select name="sport">
-    {% for sport in sports %}
-    <option value="{{ sport }}">{{ sport }}</option>
     {% endfor %}
-  </select>
-  <button type="submit">Submit</button>
-</form>
-
+  </table>
+</div>
 {% endblock %}

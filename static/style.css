@@ -8,70 +8,40 @@
 
 body {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  min-height: 100vh;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 100svh;
   padding-top: 50px;
+  background: #7f7fd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-input {
-  font-size: 22px;
-}
-
-select {
-  font-size: 22px;
-}
-
-button {
-  font-size: 22px;
-  padding: 0 6px;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-}
-
-/* Style table headers */
 th,
 td {
-  padding: 12px;
-  text-align: left;
-  border-bottom: 1px solid #ddd; /* Add a bottom border to separate rows */
+  text-align: center;
+  border-bottom: 1px solid #ddd;
 }
 
-th {
-  background-color: #f2f2f2; /* Light gray background for header cells */
+.add-edit-form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  max-width: 300px;
+  gap: 20px;
+}
+.add-edit-form input {
+  width: 100%;
 }
 
-/* Style alternate rows differently for better readability */
-tr:nth-child(even) {
-  background-color: #f9f9f9; /* Light background color for even rows */
+.add-edit-form select {
+  width: 100%;
 }
 
-/* Add hover effect on table rows */
-tr:hover {
-  background-color: #e5e5e5;
-}
-
-/* Adjust styling for small screens */
-@media screen and (max-width: 600px) {
-  th,
-  td {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  /* Hide table headers on small screens */
-  thead {
-    display: none;
-  }
-
-  /* Style table rows for better readability on small screens */
-  tr {
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-  }
+.add-edit-form button {
+  width: 100%;
 }
