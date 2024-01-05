@@ -1,3 +1,6 @@
+<!-- selected option -->
+<!-- favicon -->
+
 <h1 align="center">Python + Flask + Sqlite</h1> 
 
 
