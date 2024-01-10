@@ -16,7 +16,7 @@ My initial desire was to create simple setup guide, but as you might have alread
 
 
 ## Environment setup + usage
-- **_Python_** - Install it directly from Microsoft [Store](https://apps.microsoft.com/detail/9PJPW5LDXLZ5?hl=en-US&gl=US). Check installation status
+- **_Python_** - Install it directly from  [Python](Python). Check installation status
 
 ```sh
 python --version
